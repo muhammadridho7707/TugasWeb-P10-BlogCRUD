@@ -1,3 +1,5 @@
-<div>
-    <!-- Knowing is not enough; we must apply. Being willing is not enough; we must do. - Leonardo da Vinci -->
+@props(['type' => 'success', 'message'])
+
+<div class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50">
+    <span class="font-medium">Berhasil!</span> {{ $message }}
 </div>
