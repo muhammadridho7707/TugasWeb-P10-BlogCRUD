@@ -8,7 +8,7 @@
 </head>
 <body class="bg-gray-100 p-8">
     <div class="max-w-4xl mx-auto">
-        <h1 class="text-3xl font-bold mb-6 text-center text-blue-600">Ridosaurus - Blog CRUD</h1>
+        <h1 class="text-3xl font-bold mb-6 text-center text-blue-600">RidosaurusApp - Blog CRUD</h1>
         
         @if(session('success'))
             <x-alert type="success" :message="session('success')" />
